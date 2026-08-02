@@ -1,22 +1,73 @@
 aid: videogameai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/videogameai.png
 name: videogame.ai
-description: videogame.ai is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  videogame.ai is an AI-native game development studio that uses fleets of
+  autonomous AI coding agents to build, ship, and operate video games. The
+  company offers full-service game development delivered in days at the cost of
+  a single full-time employee, along with automated live-ops pipelines, a
+  multiplayer engine optimized for AI coding agents, an AI-native asset and
+  media management system, and autonomous generation of ads and creative from
+  game builds. Featured titles include Zero Hour, a narrative game set on a
+  frozen planet, and Imperfect World, an RPG built around time-loop mechanics.
+  Backed by a16z (SR02) and Konvoy. Surfaced as an a16z portfolio company and
+  profiled in the API Evangelist network; the studio publishes a marketing site
+  and contact channel but no public developer API, SDK, or documentation at this
+  time.
 url: https://raw.githubusercontent.com/api-evangelist/videogameai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Konvoy
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Video Games
+- Game Development
+- Artificial Intelligence
+- AI Agents
+- Live Ops
+- Multiplayer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/videogameai-domain-security.yml
+- type: Website
+  url: https://videogame.ai
+- type: Support
+  url: mailto:contact@videogame.ai
+- type: TermsOfService
+  url: https://videogame.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://videogame.ai/privacy-policy
+- type: X
+  url: https://twitter.com/videogame_ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/videogame-ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
